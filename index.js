@@ -32,7 +32,7 @@ app.get('/users', (req, res) => {
         res.send(users);
     }
     res.send(users);
-})
+});
 
 // creating another API
 app.get('/user/:id', (req, res) => {
@@ -48,7 +48,7 @@ app.post('/user', (req, res) => {
     user.id = users.length + 1;
     users.push(user);
     res.send(user);
-})
+});
 
 app.get('/fruits', (req, res) => {
     res.send(['mango', 'apple', 'oranges']);
@@ -60,4 +60,4 @@ app.get('/fruits/mango/fazle', (req, res) => {
 
 app.listen(port, () => {
     console.log(`Example app listening on port`, port)
-})
+});

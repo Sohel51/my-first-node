@@ -1,4 +1,7 @@
 /** 
+ * -----------------------
+ * Basic Server Setup
+ * -----------------------
  * 1. create a folder (manually or mkdirect)
  * 2. open command line to that folder
  * 3. npm init -y
@@ -39,7 +42,7 @@ app.listen(port, () => {
  * Now create personal data or receive data from outside project create API for create object data.
  * 
  * -------------
- * Create React with node
+ * Create React with node & get
  * -------------
  * 10. Create new react project
  * 11. Export this server data to React Project study that instruction- (http://expressjs.com/en/resources/middleware/cors.html)
@@ -51,7 +54,9 @@ app.listen(port, () => {
  * 
  * Creating Form in react -- Form data send to BackEnd -- Created Post Method -- Receive tha Data in Post Method -- 
  * 
- * 
+ * ----------------
+ * post
+ * ----------------
  * 
  * 
  * 
@@ -62,4 +67,12 @@ app.listen(port, () => {
  * 1. git init
  * 2. create .gitignore file
  * 3. type node_modules & save
+ * 4. git add .
+ * 5. git commit -m "name"
+ * 6. git branch -M main
+ * 7. git remote add origin https://github.com/Sohel51/my-first-node.git
+ * 8. git push -u origin main
+ * 
+ * 
+ * 
  */
